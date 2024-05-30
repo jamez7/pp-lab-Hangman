@@ -143,6 +143,7 @@ public class Controller implements Initializable {
         choosewordlist.setDisable(true);
         DifficultyChoiceBox.setDisable(true);
         Background.requestFocus();
+        System.out.println(MainTextString);
 
 
 
@@ -190,7 +191,7 @@ public class Controller implements Initializable {
 
         }
         else return;
-        System.out.println(MainTextString);
+
 
     }
 
@@ -234,7 +235,6 @@ public class Controller implements Initializable {
         }
         TextPrzed = "";
 
-        System.out.println(playerGuesses.toString());
 
     }
 
