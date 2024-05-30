@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Background" onKeyPressed="#onTyped" prefHeight="551.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wisielec.Controller">
+   <children>
+      <Button fx:id="NewGame" layoutX="195.0" layoutY="440.0" mnemonicParsing="false" onAction="#onNewGameButtonClick" prefHeight="47.0" prefWidth="136.0" text="New Game" textAlignment="CENTER">
+         <font>
+            <Font name="Liberation Mono" size="15.0" />
+         </font></Button>
+      <Label layoutX="108.0" layoutY="16.0" prefHeight="184.0" prefWidth="337.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="choosewordlist" layoutX="374.0" layoutY="450.0" mnemonicParsing="false" onMouseClicked="#getList" text="Choose Word List" />
+      <Circle fx:id="head" layoutX="339.0" layoutY="91.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="torso" endX="-100.0" endY="51.0" layoutX="439.0" layoutY="109.0" startX="-100.0" strokeWidth="5.0" />
+      <Line fx:id="arm2" endX="-100.0" endY="51.0" layoutX="442.0" layoutY="65.0" startX="-76.0" startY="91.0" strokeWidth="5.0" />
+      <Line fx:id="leg2" endX="-100.0" endY="51.0" layoutX="440.0" layoutY="109.0" startX="-76.0" startY="89.0" strokeWidth="5.0" />
+      <Line fx:id="leg1" endX="-100.0" endY="51.0" layoutX="414.0" layoutY="109.0" scaleX="-1.0" startX="-76.0" startY="89.0" strokeWidth="5.0" />
+      <Line fx:id="arm1" endX="-100.0" endY="51.0" layoutX="412.0" layoutY="65.0" scaleX="-1.0" startX="-76.0" startY="91.0" strokeWidth="5.0" />
+      <Text fx:id="AlfabetText" layoutX="11.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" textAlignment="CENTER" wrappingWidth="492.0">
+         <font>
+            <Font name="Liberation Mono" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="MainText" layoutX="89.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="343.13671875">
+         <font>
+            <Font name="Miriam Mono CLM Bold" size="31.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="DifficultyChoiceBox" layoutX="44.0" layoutY="451.0" prefHeight="25.0" prefWidth="110.0" />
+      <Text fx:id="Score" layoutX="43.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="52.0">
+         <font>
+            <Font name="Liberation Mono" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="19.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HiScore:" wrappingWidth="96.015625">
+         <font>
+            <Font name="Liberation Mono" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="EndText" fill="#2f969e" layoutX="67.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="390.13671875">
+         <font>
+            <Font name="Liberation Mono Bold" size="54.0" />
+         </font>
+      </Text>
+      <Text fx:id="TheWordWas" layoutX="136.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="255.0">
+         <font>
+            <Font name="Liberation Mono" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="100.0" layoutX="336.0" layoutY="48.0" startX="-1.0" strokeWidth="5.0" />
+      <Line fx:id="rope" endX="-1.0" endY="27.0" layoutX="344.0" layoutY="48.0" startX="-1.0" strokeWidth="5.0" />
+      <Text layoutX="51.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Difficulty">
+         <font>
+            <Font name="Liberation Mono" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="153.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YourScore:" wrappingWidth="136.0">
+         <font>
+            <Font name="Liberation Mono" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="CurrentScore" layoutX="186.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="52.0">
+         <font>
+            <Font name="Liberation Mono" size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="HintButton" layoutX="438.0" layoutY="323.0" mnemonicParsing="false" onAction="#onHintButtonClick" text="Hint" />
+   </children>
+</AnchorPane>
