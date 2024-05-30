@@ -1,0 +1,13 @@
+potato
+tomato
+salad
+pickle
+bread
+banana
+apple
+grape
+broccoli
+cheese
+butter
+
+

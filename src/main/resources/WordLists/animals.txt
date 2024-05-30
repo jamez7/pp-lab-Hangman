@@ -1,0 +1,14 @@
+dog
+cat
+peacock
+rihno
+elephant
+zebra
+whale
+shark
+lion
+wolf
+bear
+boar
+penguin
+sloth
