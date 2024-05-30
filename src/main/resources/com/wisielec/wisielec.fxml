@@ -38,7 +38,7 @@
          </font>
       </Text>
       <ChoiceBox fx:id="DifficultyChoiceBox" layoutX="44.0" layoutY="451.0" prefHeight="25.0" prefWidth="110.0" />
-      <Text fx:id="Score" layoutX="43.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="52.0">
+      <Text fx:id="Score" layoutX="33.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="52.0">
          <font>
             <Font name="Liberation Mono" size="34.0" />
          </font>
@@ -70,7 +70,7 @@
             <Font name="Liberation Mono" size="19.0" />
          </font>
       </Text>
-      <Text fx:id="CurrentScore" layoutX="186.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="52.0">
+      <Text fx:id="CurrentScore" layoutX="181.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="52.0">
          <font>
             <Font name="Liberation Mono" size="34.0" />
          </font>

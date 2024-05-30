@@ -94,6 +94,7 @@ public class Controller implements Initializable {
 
 
 
+
     @FXML
     protected void onHintButtonClick(){
 
@@ -255,7 +256,6 @@ public class Controller implements Initializable {
             leg1.setVisible(true);
         else if (Lives == 0)
             leg2.setVisible(true);
-
 
     }
 
