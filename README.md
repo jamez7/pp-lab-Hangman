@@ -29,7 +29,8 @@ Simple Hangman Game allows you to choose your own words to play with.\
 
 # Installation
 1. Clone git repository
-``` https://github.com/jamez7/pp-lab-Hangman.git ```
+```
+git clone https://github.com/jamez7/pp-lab-Hangman.git ```
 
 
 
