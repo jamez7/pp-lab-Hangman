@@ -20,6 +20,9 @@ Simple Hangman Game allows you to choose your own words to play with.\
 ![Zrzut ekranu 2024-05-31 0131182](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/1472a693-bdec-44db-8682-d9c0dfd20020)
 * Alphabet that helps you remember letters you used:\
 ![Zrzut ekranu 2024-05-31 02090565](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/ea8dcfad-5d2e-457c-a47d-78e3b9e06355)
+# What's needed to open the game:\
+
+
 
 
 
