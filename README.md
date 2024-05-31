@@ -2,7 +2,7 @@
 # Simple Hangman Game
 
 Simple Hangman Game is a Java application based on a guessing game "Hangman".\
-To gain points in Simple Hangman Game you need to guess the hidden words,\
+To gain points in Simple Hangman Game you need to guess the hidden word before Hangman picture is completed.\
 Choose your desired word list and difficulty and have fun!
 ## Features
 * Different difficulty levels:
