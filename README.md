@@ -29,7 +29,12 @@ Simple Hangman Game allows you to choose your own words to play with.\
 
 # Installation
 1. Clone git repository
-``` bash git clone https://github.com/jamez7/pp-lab-Hangman.git```
+```git clone https://github.com/jamez7/pp-lab-Hangman.git```
+2. Build the project using this command:
+```mvn clean install```
+3. Run the project using this command:
+```mvn clean javafx:run```
+
 
 
 
