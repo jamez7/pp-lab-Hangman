@@ -23,7 +23,7 @@ Simple Hangman Game allows you to choose your own words to play with.\
 # What's needed to open the game:\
 ## Needed:
 * Java 21
-* Appache Maven 3.8.5 [Download Link](repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.5/apache-maven-3.8.5-bin.zip) and [Installation guide](https://maven.apache.org/install.html)
+* Appache Maven 3.8.5 [Download Link](https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.5/apache-maven-3.8.5-bin.zip) and [Installation guide](https://maven.apache.org/install.html)
 ## Optional:
 * Liberation Mono Font [Download Link](https://github.com/liberationfonts/liberation-fonts/files/6418984/liberation-fonts-ttf-2.1.4.tar.gz)
 
