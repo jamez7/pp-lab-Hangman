@@ -18,6 +18,8 @@ Allows you to lose a point instead of losing the game when Hangman is completed.
 Simple Hangman Game allows you to choose your own words to play with.\
  It is as easy as creating .txt file and filling it with your words.\
 ![Zrzut ekranu 2024-05-31 0131182](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/1472a693-bdec-44db-8682-d9c0dfd20020)
+* Alphabet that helps you remember letters you used:\
+![Zrzut ekranu 2024-05-31 02090565](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/ea8dcfad-5d2e-457c-a47d-78e3b9e06355)
 
 
 
