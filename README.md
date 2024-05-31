@@ -1,4 +1,6 @@
+![shg](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/7295c936-5acf-4ed7-8652-66656b56c2cb)
 # Simple Hangman Game
+
 Simple Hangman Game is a Java application based on guessing game "Hangman".\
 To gain points in Simple Hangman Game you need to guess the hidden words,\
 Choose your desired word list and difficulty and have fun!
