@@ -20,7 +20,7 @@ Simple Hangman Game allows you to choose your own words to play with.\
 ![Zrzut ekranu 2024-05-31 0131182](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/1472a693-bdec-44db-8682-d9c0dfd20020)
 * Alphabet that helps you remember letters you used:\
 ![Zrzut ekranu 2024-05-31 02090565](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/ea8dcfad-5d2e-457c-a47d-78e3b9e06355)
-# What's needed to open the game:\
+# What's needed to open the game:
 ## Needed:
 * Java 21
 * Appache Maven 3.8.5 [Download Link](https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.5/apache-maven-3.8.5-bin.zip) and [Installation guide](https://maven.apache.org/install.html)
