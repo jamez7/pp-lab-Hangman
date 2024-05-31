@@ -21,6 +21,11 @@ Simple Hangman Game allows you to choose your own words to play with.\
 * Alphabet that helps you remember letters you used:\
 ![Zrzut ekranu 2024-05-31 02090565](https://github.com/jamez7/pp-lab-Hangman/assets/104445999/ea8dcfad-5d2e-457c-a47d-78e3b9e06355)
 # What's needed to open the game:\
+## Needed:
+* Java 21
+* Appache Maven 3.8.5
+## Optional:
+* Liberation Mono Font
 
 
 
